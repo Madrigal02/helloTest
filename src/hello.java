@@ -6,9 +6,10 @@ public class hello {
 		
 		byte a = 10;
 		byte b = 20;
-		byte c;
 		
-		System.out.println(a);
+		int c = (byte) a+b;
+		
+		System.out.println(c);
 	
 
 	}
